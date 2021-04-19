@@ -1,0 +1,87 @@
+body{
+    background-color: #00ccff;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.header{
+    background-color: gray;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+.origamis{
+    display : flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: hotpink;
+}
+
+.info{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.facts{
+    display: flex;
+    justify-content: center;
+}
+
+.examples{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #35e200;
+}
+
+.hyperlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link{
+    color: blanchedalmond;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.giraffe{
+    display: flex;
+    position: relative;
+}
+h5{
+    display: flex;
+    color: cornsilk;
+    position: absolute;
+}
+
+.chameleon{
+    display: flex;
+    position: relative;
+}
